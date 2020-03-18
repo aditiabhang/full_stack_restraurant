@@ -1,30 +1,29 @@
 ### Instructions to run vagrant for the full stack restaurant project
 
 
-- 1. '''$ cd <to the vagrantfile folder>'''
+- 1. ```$ cd <to the vagrantfile folder>```
 
+- 2. ```$ vagrant up```
 
-- 2. '''$ vagrant up '''
+- 3. ```$ vagrant ssh```
 
-- 3. '''$ vagrant ssh'''
-'''
-- 4. work on virtual environment >> venv
+- 4. Make sure you work on virtual environment >> venv
 
 - 5. Connection is on. Verified if you see >> 
 
-'''vagrant@vagrant:~$'''
+```vagrant@vagrant:~$```
 
 - 6. To disconnect the connection. 
-'''$ exit'''
+```$ exit```
 
 - Reload the vagrantfile setting ont your virtual machine.
-'''vagrant reload''' 
+```vagrant reload```
 
 -  Destroy the virtual machine (can reactivate using $ vagrant up)
-''' vagrant destroy''' 
+```vagrant destroy```
 
 -  Saves the current work and suspends the vm
-''' vagrant suspend''' 
+```vagrant suspend```
 
 - For all other commands
-''' vagrant --help''' 
+```vagrant --help```
