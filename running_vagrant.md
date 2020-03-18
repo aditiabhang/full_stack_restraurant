@@ -1,4 +1,4 @@
-### Instructions to run vagrant for the full stack restaurant project
+### Instructions set up vagrant for the full stack restaurant project.
 
 
 - 1. ```$ cd <to the vagrantfile folder>```
@@ -27,3 +27,11 @@
 
 - For all other commands
 ```vagrant --help```
+
+### Instructions run the full stack restaurant project.
+
+- After setting up the vagrant i.e once the vagrant is up and logged into ssh.
+```$ python3 listofrestaurants.py```
+
+- Open the url: ```localhost:8000/restaurants``` on the browser. 
+
